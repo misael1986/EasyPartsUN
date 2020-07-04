@@ -1,0 +1,31 @@
+.SearchBar {
+  width: 60%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-purple);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  align-items: center;
+  padding-right: 10px;
+}
+
+.SearchGlass {
+  width: 20px;
+  height: 20px;
+}
+
+.SearchInput {
+  flex: 1;
+  font-size: large;
+  background-color: var(--color-purple);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  color: var(--color-text);
+  padding-left: 20px;
+}
+
+.SearchInput::placeholder {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}

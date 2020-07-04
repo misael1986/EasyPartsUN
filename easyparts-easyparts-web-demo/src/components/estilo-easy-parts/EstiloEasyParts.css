@@ -1,0 +1,30 @@
+#estiloeasyparts {
+  height: 100vh;
+  background-color: #081945;
+}
+
+.izqEstiloEasyParts {
+  width: 0%;
+  display: inline-block;
+  text-align: center;
+  top: 0;
+}
+
+.derEstiloEasyParts {
+  width: 100%;
+  display: inline-block;
+}
+
+.textExperto {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: 0.8s;
+}

@@ -1,0 +1,85 @@
+.PcPart {
+  margin: 5px 5px;
+  width: 185px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6px;
+  transition: 0.5s;
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  color: var(--color-bg-dark);
+}
+
+.tooltip-hidden {
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+}
+
+.tooltip-visible {
+  opacity: 1;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 0 6px;
+  border: var(--border);
+  border-radius: 10px;
+  max-width: 240px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  z-index: 300;
+  border-color: greenyellow;
+  border-width: 3px;
+  transition: 0.3s;
+}
+
+.Compare {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+}
+
+.CompareText {
+  font-size: 12px;
+  margin-top: 6px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.CompareBox {
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+}
+
+.descripcion {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.linkinfo {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Image {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}

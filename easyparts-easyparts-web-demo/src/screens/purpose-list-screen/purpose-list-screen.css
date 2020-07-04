@@ -1,0 +1,28 @@
+.PurposeListMain {
+  height: 100vh;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopHeader {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+}
+
+.ListTower {
+  width: 1280px;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-dark);
+  align-items: center;
+
+  overflow: auto;
+  border-radius: 15px;
+  border: var(--border);
+}

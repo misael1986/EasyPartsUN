@@ -1,0 +1,57 @@
+#signupScreen {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.derSignUp {
+  display: flex;
+  background-image: url("../../assets/Parallax2.jpg");
+  background-position: center center;
+  background-attachment: initial;
+  background-size: initial;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.izqSignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  padding: 5%;
+  background-color: white;
+}
+
+.usuario {
+  color: #ffffff;
+}
+
+.contrasenia {
+  color: #ffffff;
+}
+
+.form {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.submit {
+  margin-bottom: 5%;
+}
+
+.labelRegistrarse {
+  color: #4b5f83;
+}
+
+.validarContraseña {
+  color: black;
+  font-size: 10px;
+}

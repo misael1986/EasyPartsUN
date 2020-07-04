@@ -1,0 +1,57 @@
+#VerifyScreen {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.derVerify {
+  display: flex;
+  background-image: url("../../assets/Parallax2.jpg");
+  background-position: center center;
+  background-attachment: initial;
+  background-size: initial;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.izqVerify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  padding: 5%;
+  background-color: white;
+}
+
+.usuario {
+  color: #ffffff;
+}
+
+.contrasenia {
+  color: #ffffff;
+}
+
+.form {
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.submit {
+  margin-bottom: 5%;
+}
+
+.labelVerify {
+  color: #4b5f83;
+}
+
+.mensaje {
+  color: #4b5f83;
+}

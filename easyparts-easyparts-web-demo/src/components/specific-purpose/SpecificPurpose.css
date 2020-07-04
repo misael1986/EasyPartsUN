@@ -1,0 +1,57 @@
+.specific {
+  border: 1px solid var(--color-bg-dark);
+  border-radius: 5px;
+  width: 30%;
+  height: 100%;
+  outline: none;
+  margin: 2px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.trans {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: 2s;
+}
+
+.noTrans {
+  transition: 0.1s;
+  visibility: hidden;
+  position: relative;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+}
+
+.tooltip-hiddenP {
+  transition: 0.3s;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  position: relative;
+}
+
+.tooltip-visibleP {
+  opacity: 1;
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.textDescription {
+  position: relative;
+  font-size: 90%;
+}

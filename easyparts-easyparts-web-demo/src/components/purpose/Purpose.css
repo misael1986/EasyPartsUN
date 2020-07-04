@@ -1,0 +1,35 @@
+#proposito {
+  height: 100vh;
+  background-color: #14224f;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.izqPurpose {
+  width: 30%;
+}
+
+.derPurpose {
+  width: 70%;
+  height: 100vh;
+}
+
+.containerPurpose {
+  display: flex;
+  flex-direction: row;
+  width: 80vh;
+  height: 25%;
+  justify-content: space-around;
+  margin: 20px auto 10px;
+}
+
+.containerDescription {
+  display: flex;
+  flex-direction: column;
+  width: 70vh;
+  height: 25%;
+  justify-content: space-evenly;
+  margin: 20px auto 10px;
+  text-align: center;
+}

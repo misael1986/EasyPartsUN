@@ -1,0 +1,47 @@
+.ProgressBarQuantities {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 4px;
+  margin-top: -4px;
+}
+
+.Empty {
+  width: 12%;
+}
+
+.Quantity {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.Button {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border: 1px solid var(--color-purple);
+  border-radius: 10px;
+  color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.Value {
+  margin: 0 10px;
+  font-size: 20px;
+  color: greenyellow;
+}
+
+.Hidden {
+  opacity: 0;
+}

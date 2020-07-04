@@ -1,0 +1,36 @@
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.compra {
+  opacity: 1;
+  position: absolute;
+  width: 96%;
+  height: 96%;
+  background: white;
+  border: 2px solid var(--color-blue);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.formCompra {
+  width: 35%;
+  padding: 5%;
+  padding-left: 35%;
+  color: black;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botones3 {
+  position: relative;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}

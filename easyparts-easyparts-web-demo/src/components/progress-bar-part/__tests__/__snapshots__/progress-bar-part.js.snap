@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBarPart hasn't changed unexpectedly 1`] = `
+<div
+  className="ProgressBarPart"
+  onClick={[Function]}
+  onPointerLeave={[Function]}
+>
+  <div
+    className="PartSelected"
+    onPointerEnter={[Function]}
+  >
+    <p
+      className="PartSelectedTitle"
+    >
+      Procesador
+    </p>
+    <img
+      alt="Imagen del Producto"
+      className="PartSelectedImage"
+      src=""
+    />
+    <p
+      className="PartSelectedDesc"
+    >
+      
+    </p>
+  </div>
+</div>
+`;

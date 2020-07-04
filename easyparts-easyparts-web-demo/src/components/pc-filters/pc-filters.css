@@ -1,0 +1,78 @@
+.PcFilters {
+  width: 200px;
+  overflow: auto;
+}
+
+.top {
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  border: var(--border);
+  border-radius: 10px;
+}
+
+.topText {
+  width: 180px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  text-align: start;
+  font-weight: bold;
+  color: var(--color-text);
+  font-family: "Teko", sans-serif;
+}
+
+.listItem {
+  width: 90%;
+  height: 30px;
+  margin-left: 10%;
+  color: var(--color-text);
+  background-color: transparent;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  margin-top: 1px;
+  font-family: "Squada One", cursive;
+  font-size: 14px;
+}
+
+.listItemSelected {
+  width: 90%;
+  height: 30px;
+  margin-left: 10%;
+  background-color: transparent;
+  border: var(--border);
+  color: var(--color-blue);
+  font-weight: bold;
+  margin-top: 1px;
+  font-family: "Squada One", cursive;
+  font-size: 24px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.reset {
+  height: 30px;
+  background-color: var(--color-blue);
+  border-radius: 6px;
+  border: var(--border);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.resetText {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PcFilters hasn't changed unexpectedly 1`] = `
+<div
+  className="PcFilters"
+>
+  <div>
+    <button
+      className="top"
+      onClick={[Function]}
+    >
+      <p
+        className="topText"
+      />
+      <svg
+        color="white"
+        fill="currentColor"
+        height={14}
+        size={14}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+        viewBox="0 0 512 512"
+        width={14}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zm116-292H256v-70.9c0-10.7-13-16.1-20.5-8.5L121.2 247.5c-4.7 4.7-4.7 12.2 0 16.9l114.3 114.9c7.6 7.6 20.5 2.2 20.5-8.5V300h116c6.6 0 12-5.4 12-12v-64c0-6.6-5.4-12-12-12z"
+        />
+      </svg>
+    </button>
+    <div
+      className="List"
+    >
+      <button
+        className="listItem"
+        onClick={[Function]}
+      >
+        1
+      </button>
+      <button
+        className="listItem"
+        onClick={[Function]}
+      >
+        2
+      </button>
+    </div>
+  </div>
+  <button
+    className="reset"
+    onClick={[Function]}
+  >
+    <svg
+      baseProfile="tiny"
+      color="white"
+      fill="currentColor"
+      height={26}
+      size={26}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+      version="1.2"
+      viewBox="0 0 24 24"
+      width={26}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.872 13.191h5.128v-5.127c-.008-1.135-.671-1.408-1.473-.605l-1.154 1.158c-1.015-.795-2.257-1.23-3.566-1.23-1.55 0-3.009.604-4.104 1.701-1.099 1.092-1.703 2.553-1.703 4.103 0 1.553.604 3.012 1.701 4.107 1.097 1.097 2.555 1.702 4.106 1.702 1.55 0 3.009-.605 4.106-1.703.296-.297.558-.621.78-.965.347-.541.19-1.26-.35-1.605-.539-.346-1.258-.189-1.604.35-.133.207-.292.4-.468.58-.659.658-1.534 1.02-2.464 1.02-.93 0-1.805-.361-2.464-1.02-.657-.658-1.02-1.533-1.02-2.465 0-.93.362-1.805 1.02-2.461.659-.658 1.534-1.021 2.464-1.021.688 0 1.346.201 1.909.572l-1.448 1.451c-.803.802-.53 1.458.604 1.458z"
+      />
+    </svg>
+    <p
+      className="resetText"
+    >
+      Resetear
+    </p>
+  </button>
+</div>
+`;

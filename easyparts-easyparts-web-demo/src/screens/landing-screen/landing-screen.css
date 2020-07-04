@@ -1,0 +1,13 @@
+body {
+  background-color: #14224f;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.principal {
+  height: 100%;
+  width: 100%;
+}

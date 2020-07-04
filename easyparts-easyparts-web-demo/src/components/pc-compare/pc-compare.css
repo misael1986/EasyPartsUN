@@ -1,0 +1,73 @@
+.pc {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #081945;
+  margin: 5%;
+  text-align: center;
+  border-radius: 8px;
+  overflow: scroll;
+}
+
+.pc p {
+  position: relative;
+  font-size: 90%;
+}
+
+.FinalImageComparar {
+  margin-bottom: 10px;
+  width: 40%;
+  object-fit: fill;
+  background-color: #081945;
+  border-radius: 10px;
+}
+
+.comparar-visible {
+  width: 96%;
+  height: 96%;
+  opacity: 1;
+  position: relative;
+  background: #14224f;
+  border: 2px solid #23e2ff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.componente {
+  color: #8917ff;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.button {
+  width: auto !important;
+  height: auto;
+  max-height: 80%;
+}
+
+.pcs {
+  position: relative;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.botones1 {
+  position: relative;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.botones2 {
+  position: relative;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}

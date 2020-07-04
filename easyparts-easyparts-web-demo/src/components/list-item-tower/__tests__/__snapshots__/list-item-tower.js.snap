@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PcFilters hasn't changed unexpectedly 1`] = `
+<div
+  className="ListItemTower"
+  onClick={[Function]}
+>
+  <img
+    alt="Img"
+    className="TowerImg"
+    src=""
+  />
+  <div
+    className="PartList"
+  >
+    <div
+      className="PartRow"
+    >
+      <img
+        alt="Img"
+        className="PartRowImg"
+        src=""
+      />
+      <p
+        className="PartLabel"
+      >
+        Procesador
+        : 
+        undefined 
+      </p>
+    </div>
+    <div
+      className="PartRow"
+    >
+      <img
+        alt="Img"
+        className="PartRowImg"
+        src=""
+      />
+      <p
+        className="PartLabel"
+      >
+        Ram
+        : 
+        undefined x undefined 
+        undefined 
+      </p>
+    </div>
+    <div
+      className="PartRow"
+    >
+      <img
+        alt="Img"
+        className="PartRowImg"
+        src=""
+      />
+      <p
+        className="PartLabel"
+      >
+        Tarjeta de Video
+        : 
+        undefined 
+      </p>
+    </div>
+    <div
+      className="PartRow"
+    >
+      <img
+        alt="Img"
+        className="PartRowImg"
+        src=""
+      />
+      <p
+        className="PartLabel"
+      >
+        Disco
+        : 
+        undefined 
+      </p>
+    </div>
+    <div
+      className="PartRow"
+    >
+      <img
+        alt="Img"
+        className="PartRowImg"
+        src=""
+      />
+      <p
+        className="PartLabel"
+      >
+        Disco
+        : 
+        undefined 
+      </p>
+    </div>
+  </div>
+  <p
+    className="Cost"
+  >
+    $0
+  </p>
+</div>
+`;

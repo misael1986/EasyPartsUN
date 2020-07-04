@@ -1,0 +1,55 @@
+{
+  "name": "my-easy-parts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "amazon-cognito-identity-js": "^4.3.0",
+    "axios": "^0.19.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-parallax": "^3.0.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp _redirects build/_redirects",
+    "test": "react-scripts test  --coverage",
+    "eject": "react-scripts eject",
+    "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\"",
+    "aws:deploy": "aws s3 sync build/ s3://easyparts-web-app",
+    "aws:invalidate": "aws cloudfront create-invalidation --distribution-id E297EG7IHSIKNF --paths \"/*\"\n"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest-sonar-reporter": "^2.0.0",
+    "netlify-cli": "^2.48.0",
+    "react-test-renderer": "^16.13.1"
+  }
+}

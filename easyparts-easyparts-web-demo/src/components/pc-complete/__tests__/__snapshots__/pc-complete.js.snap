@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PcComplete hasn't changed unexpectedly 1`] = `
+Array [
+  <div
+    className="computador"
+  >
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Numero de nucleos: undefined
+      </p>
+      <p>
+        Frecuencia: undefined
+      </p>
+      <p>
+        Cache: undefined
+      </p>
+      <p>
+        Grafica integrada: undefined
+      </p>
+      <p>
+        Sockte: undefined
+      </p>
+      <p>
+        Potencia maxima: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Capacidad: undefined
+      </p>
+      <p>
+        Velocidad: undefined
+      </p>
+      <p>
+        Teconologia: undefined
+      </p>
+      <p>
+        Potencia maxima: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Capacidad: undefined
+      </p>
+      <p>
+        Tecnologia: undefined
+      </p>
+      <p>
+        Puerto: undefined
+      </p>
+      <p>
+        Velocidad de lectura: undefined
+      </p>
+      <p>
+        Velocidad de escritura: undefined
+      </p>
+      <p>
+        Potencia maxima: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Capacidad: undefined
+      </p>
+      <p>
+        Tecnologia: undefined
+      </p>
+      <p>
+        Puerto: undefined
+      </p>
+      <p>
+        Velocidad de lectura: undefined
+      </p>
+      <p>
+        Velocidad de escritura: undefined
+      </p>
+      <p>
+        Potencia maxima: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Pci express: undefined
+      </p>
+      <p>
+        Memoria: undefinedundefined
+      </p>
+      <p>
+        Proposito: undefined
+      </p>
+      <p>
+        Potencia maxima: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Categoria: undefined
+      </p>
+      <p>
+        Socket: undefined
+      </p>
+      <p>
+        Bios: undefined
+      </p>
+      <p>
+        Slot RAM: undefined (xundefined)
+      </p>
+      <p>
+        Slot GPU: undefined (xundefined)
+      </p>
+      <p>
+        Tipo de Sata: undefined (xundefined)
+      </p>
+      <p>
+        MDOS: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Potencia: undefined
+      </p>
+      <p>
+        Certificacion: undefined
+      </p>
+    </div>
+    <div
+      className="lista"
+    >
+      <img
+        alt="Img"
+        className="FinalImage"
+        src=""
+      />
+      <p>
+        
+      </p>
+      <p>
+        Motherboards: undefined
+      </p>
+      <p>
+        Medidas: undefinedxundefinedxundefined (alto X largo X ancho
+      </p>
+    </div>
+  </div>,
+  <div
+    className="botones"
+  >
+    <button
+      className="ArmarOtro"
+      onClick={[Function]}
+      onPointerEnter={[Function]}
+      onPointerLeave={[Function]}
+    >
+      Escoger otro
+    </button>
+    <button
+      className="finalizarCompra"
+      onClick={[Function]}
+      onPointerEnter={[Function]}
+      onPointerLeave={[Function]}
+    >
+      Finalizar compra
+       
+      $ 0
+    </button>
+  </div>,
+]
+`;

@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompareParts hasn't changed unexpectedly 1`] = `
+<div
+  className="ProgressBar"
+>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Procesador
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Tarjeta Madre
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Tarjeta Gráfica
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        RAM
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Almacenamiento
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Almacenamiento
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Gabinete
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+  <div
+    className="ProgressBarPart"
+    onClick={[Function]}
+    onPointerLeave={[Function]}
+  >
+    <div
+      className="PartSelected"
+      onPointerEnter={[Function]}
+    >
+      <p
+        className="PartSelectedTitle"
+      >
+        Fuente de Poder
+      </p>
+      <img
+        alt="Imagen del Producto"
+        className="PartSelectedImage"
+        src=""
+      />
+      <p
+        className="PartSelectedDesc"
+      >
+        
+      </p>
+    </div>
+  </div>
+</div>
+`;
